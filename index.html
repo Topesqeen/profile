@@ -3,44 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Registration Form</title>
-<link rel="stylesheet" href="style.css">
+  <title>Topesqueen Profile</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
-  <div class="main-div">
-    <h2>Create Account</h2>
-    <p>Create a free account and start a proper financial journey with PiggyVest.</p>
-
-    <form action="">
-      <label for="full-name" class="first-label">Full Name</label><br>
-      <input type="text" placeholder="Full Name"><br>
-      <label for="email_address">Email Address</label><br>
-      <input type="text" placeholder="Email Address"><br>
-      <label for="phone_number">Phone Number</label><br>
-      <input type="text" placeholder="Phone Number"><br>
-      <label for="password">Password</label><br>
-      <input type="text" placeholder="Password"><br>
-      <label for="referrer">Referrer Phone or Promo Code <span>(Optional)</span></label><br>
-      <input type="text" placeholder="Referrer Phone or Promo Code (Optional)"><br>
-      <label for="optional">How Did You Hear About Us? <span>(Optional)</span></label><br>
-      <select name="" id="">
-        <option value="Click To Select">Click To Select</option>
-        <option value="Click To Select" class="option1">Facebook</option>
-        <option value="Click To Select">Twitter</option>
-        <option value="Click To Select">Instagram</option>
-        <option value="Click To Select">Friend/Family/Coworker Referral</option>
-        <option value="Click To Select">Google search</option>
-        <option value="Click To Select">Google playstore</option>
-        <option value="Click To Select">Online Blog</option>
-        <option value="Click To Select">Local Newspaper</option>
-        <option value="Click To Select">At an event</option>
-        <option value="Click To Select">Others</option>
-      </select><br>
-      <button type="submit">CREATE ACCOUNT</button>
-      <p><a href="">Already have an account? Log In</a></p>
-    </form>
+  <div class="container">
+    <div class="wrapper">
+      <div class="content-side">
+        <div class="content-side-animation"></div>
+        <header>
+          <span class="logo" id="logo">TopSqueen</span>
+          <nav>
+            <ul>
+              <li><a href="#" id="aboutLink">About</a></li>
+              <li><a href="#" id="skillsLink">Skills</a></li>
+              <li><a href="#" id="contactLink">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <section class="main" id="main">
+          <h1 class="main-animation">Hi</h1>
+          <h1 class="main-animation">I'm Ayinla Temitope</h1>
+          <p class="main-animation">Web Design <span>&</span> Web Developer Is My Profession</p>
+          <a href="#" id="contactLink" class="main-animation">Contact Me</a>
+        </section>
+        <section class="about" id="about">
+          <h1>About</h1>
+          <p>I'm 26years older, I've passion for coding since i was <br> introduced to it from a mentol. <br>I started learning how to code with Startdotng in March 2020, <br> and am a good learner, have been improving in my coding career. <br>Thank's to Startng and My Mentol Olusegun.</p>
+          <a href="#">Download Cv</a>
+        </section>
+        <section class="skills" id="skills">
+          <h1>Skills</h1>
+          <p>Welcomes you to my world. My skills are stated here. <br> Feel free to reach me i'll serve you to your taste.</p>
+          <div class="skills-card">
+            <div class="html">
+              <img src="html.png" alt="">
+              <h3>Html5</h3>
+              <p>Three Weeks Experince</p>
+            </div>
+            <div class="css">
+              <img src="css.png" alt="">
+              <h3>Css3</h3>
+              <p>Three Weeks Experince</p>
+            </div>
+            <div class="bootstrap4">
+              <img src="boot.png" alt="">
+              <h3>Bootstrap4</h3>
+              <p>Three Weeks Experince</p>
+            </div>
+          </div>
+        </section>
+        <section class="contact" id="contact">
+          <h1>Contact Me</h1>
+          <form action="">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Email">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <button type="submit">Message Me</button>
+          </form>
+        </section>
+      </div>
+      <div class="assets-side">
+        <div class="img">
+          <img src="i.jpg" alt=""></div>
+        </div>
+        <div class="links">
+          <div class="twitter">
+            <a href="#">Twitter</a>
+          </div>
+          <div class="instagram">
+            <a href="#">Instagram</a>
+          </div>
+          <div class="facebook">
+            <a href="#">Facebook</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <div class="open-modal">+</div>
   
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h1>Personal Contact Details</h1>
+      <div class="mail">
+        <img src="age3.png" alt="">
+        <p>Topesqueen1998@gmail.com</p>
+      </div>
+      <div class="address">
+        <img src="age2.jpeg" alt="">
+        <p>Fagba Bustop Iju, Lagos State</p>
+      </div>
+      <div class="contact-details">
+        <img src="age.png" alt="">
+        <p>08061566844</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
